@@ -1,0 +1,138 @@
+.colorDeFondo {
+  background-color: #fafdff; }
+
+.lectura {
+  background-color: #d4e4f7;
+  color: black;
+  text-align: center;
+  font-size: medium;
+  line-height: 2.0;
+  font-stretch: ultra-expanded;
+  border-radius: 20px;
+  line-height: 1.6; }
+
+.lectura2 {
+  background-color: #cde0f7;
+  color: black;
+  text-align: left;
+  font-size: medium;
+  line-height: 2.0;
+  font-stretch: ultra-expanded;
+  border-radius: 20px;
+  line-height: 1.6; }
+
+.ColorDeLetra {
+  color: #fefdf8; }
+
+.textoGrande {
+  font: small; }
+
+.textoMediano {
+  font-stretch: ultra-expanded; }
+
+.titulosGrandes {
+  background-color: #b3defa;
+  color: black;
+  text-align: center;
+  line-height: 2.0;
+  font-stretch: ultra-expanded;
+  border-radius: 50px; }
+
+.titulos {
+  background-color: #cae3fa;
+  color: black;
+  text-align: center;
+  line-height: 3;
+  border-radius: 20px; }
+
+.enlaces {
+  background-color: #f7f2de;
+  color: black;
+  text-align: center;
+  line-height: 3;
+  border-radius: 5px; }
+
+.textonormal {
+  font-size: 100%; }
+
+.centrar {
+  text-align: center; }
+
+.aLaDerecha {
+  text-align: justify; }
+
+.aLaIzquierda {
+  text-align: right; }
+
+.mayusculas {
+  text-transform: uppercase; }
+
+.interlineado {
+  line-height: 1.6; }
+
+.quitarsubrayado {
+  text-decoration: none; }
+
+.tachado {
+  text-decoration: line-through; }
+
+.espacioentrecaracteres {
+  letter-spacing: 1mm; }
+
+.listas {
+  list-style-type: circle; }
+
+.bordesRedondeados {
+  border-radius: 30px;
+  align-content: space-between; }
+
+.imagenes {
+  border-radius: 30px;
+  align-self: center; }
+
+.div {
+  background-color: cadetblue;
+  width: 400px;
+  height: 250;
+  letter-spacing: 1.2; }
+
+.box {
+  display: inline;
+  background-color: cadetblue;
+  width: 400px;
+  height: 250;
+  letter-spacing: 1.2; }
+
+.flexbox {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: flex-start; }
+
+.grilla {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "cabeza cabeza cabeza" "links titulo titulo" "links titulo titulo" "contactenos contactenos contactenos" "pie pie pie";
+  grid-template-rows: 10px 1fr 1fr 125px;
+  grid-template-columns: 30% 50%;
+  grid-column-gap: 100px;
+  grid-row-gap: 100px; }
+
+header {
+  grid-area: cabeza; }
+
+footer {
+  grid-area: pie; }
+
+nav {
+  grid-area: contactenos; }
+
+section#links {
+  grid-area: links; }
+
+section#titulo {
+  grid-area: titulo; }
+
+/*responsive media query */
+@media (max-width: 768px) {
+  body {
+    background-color: lavender; } }
